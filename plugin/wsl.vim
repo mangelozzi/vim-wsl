@@ -1,14 +1,9 @@
-echom "wsl plugin loaded"
 command! -nargs=* WslBrowse :call wsl#OpenBufferInBrowser(<f-args>)
 
-command! -nargs=* Chrome  :call wsl#OpenBufferInBrowser("chrome", "tab", <f-args>)
-command! -nargs=* Firefox :call wsl#OpenBufferInBrowser("firefox", "tab", <f-args>)
-command! -nargs=* IE      :call wsl#OpenBufferInBrowser("iexplore", <f-args>)
-command! -nargs=* Edge    :echom "Please use a real browser. Consider using notepad.exe while you are at it."
-
-"map  <F5>       :silent WslBrowse firefox tab default
-"map! <F5> <ESC> :call myal#OpenBufferInBrowser() <CR>
-
+command! -nargs=* Chrome    :call wsl#OpenBufferInBrowser("chrome", "tab", <f-args>)
+command! -nargs=* Firefox   :call wsl#OpenBufferInBrowser("firefox", "tab", <f-args>)
+command! -nargs=* IE        :call wsl#OpenBufferInBrowser("iexplore", <f-args>)
+command! -nargs=* Edge      :echom "Please use a real browser. Consider using notepad.exe while you are at it."
 
 augroup wsl_vim_autogroup
     " Clear existing autocmds for this group
@@ -19,10 +14,4 @@ augroup wsl_vim_autogroup
     autocmd FileReadPre   * :echom "......FileReadPre  "
     echom "Auto commands set"
 augroup END
-
-
-
-
-
-
 

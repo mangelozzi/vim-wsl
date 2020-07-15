@@ -1,3 +1,4 @@
+```
 *wsl-aid.txt*  WSL interface for VIM & Neovim
 Author:  Michael Angelozzi <http://github.com/michael-angelozzi/>
 License: Same terms as Vim itself (see |license|)
@@ -71,3 +72,4 @@ Grab the latest version or report a bug on GitHub:
 http://github.com/michael-angelozzi/vim-wsl
 
  vim:tw=78:et:ft=help:norl:
+ ```
