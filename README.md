@@ -1,3 +1,7 @@
+win32yank.exe is used by:
+Copyright (c) 2015 Rui Abreu Ferreira <raf-ep@gmx.com>
+<https://github.com/equalsraf/win32yank/blob/master/LICENSE>
+
 ```
 *wsl-aid.txt*  WSL interface for VIM & Neovim
 Author:  Michael Angelozzi <http://github.com/michael-angelozzi/>
